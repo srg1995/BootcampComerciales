@@ -15,7 +15,7 @@
 
 ## 2. [Abrir el Workspace](#technologies):page_with_curl:
 
-#### Comprobar que esta bien configurado el sorcetre y se ve la siguiente estructura:nerd_face:
+#### Comprobar que se ve la siguiente estructura dentro del workspace:nerd_face:
 ```bash
 |-- .Plantilla
     |-- Estaticos
