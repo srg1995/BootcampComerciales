@@ -12,7 +12,7 @@
     <!--InicioSitemesh-->
     <link href="../recursos/css/librerias/es.bootstrap.min.css" type="text/css" rel="stylesheet" />
     <link href="../recursos/css/librerias/fonts.css" rel="stylesheet" />
-    <link href="../recursos/css/librerias/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet" />
 
     <script src="../recursos/js/librerias/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="../recursos/js/librerias/jquery-migrate-3.3.0.min.js" type="text/javascript"></script>
@@ -67,59 +67,20 @@
                 $(".elementos").hide();
                 $("#grid").show();
             });
-            $("#c-tooltip").on("click", function() {
-                $(".elementos").hide();
-                $("#tooltip").show();
-            });
-            $("#c-carrusel").on("click", function() {
-                $(".elementos").hide();
-                $("#e-carrusel").show();
-            });
+
             $("#c-modal").on("click", function() {
                 $(".elementos").hide();
                 $("#e-modal").show();
             });
-            $("#c-titulos").on("click", function() {
-                $(".elementos").hide();
-                $("#e-titulos").show();
-            });
+
             $("#c-botones").on("click", function() {
                 $(".elementos").hide();
                 $("#e-botones").show();
             });
+
             $("#c-formulario").on("click", function() {
                 $(".elementos").hide();
                 $("#e-formulario").show();
-            });
-            $("#c-datos-prueba").on("click", function() {
-                $(".elementos").hide();
-                $("#e-datos-prueba").show();
-            });
-            $("#c-tablas").on("click", function() {
-                $(".elementos").hide();
-                $("#e-tablas").show();
-            });
-            $("#c-tablas-complejas").on("click", function() {
-                $(".elementos").hide();
-                $("#e-tablas-complejas").show();
-            });
-            $("#c-collapse-preguntas").on("click", function() {
-                $(".elementos").hide();
-                $("#e-collapse-preguntas").show();
-            });
-
-            $("#c-radios-personalizados").on("click", function() {
-                $(".elementos").hide();
-                $("#e-radios-personalizados").show();
-            });
-
-            $("#c-acordeon-simple").on("click", function() {
-                $(".elementos").hide();
-                $("#e-acordeon-simple").show();
-            });
-            $("#c-acordeon-complejo").on("click", function() {
-                $(".elementos").hide();
-                $("#e-acordeon-complejo").show();
             });
         });
     </script>
@@ -342,7 +303,7 @@
                 </select>
                 <span class="help-block"></span>
             </div>
-            <button type="button" id="" class="btn btn-generic btn-generic-green btn-sin-flecha" disabled>
+            <button type="button" id="" class="btn btn-generic btn-generic-green btn-sin-flecha">
                 <span>btn form</span>
             </button>
         </form>
