@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--InicioSitemesh-->
+    <link href="../recursos/css/librerias/es.bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="../recursos/css/librerias/fonts.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet" />
+
+    <script src="../recursos/js/librerias/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="../recursos/js/librerias/jquery-migrate-3.3.0.min.js" type="text/javascript"></script>
+    <script src="../recursos/js/librerias/popper.min.js" type="text/javascript">
+    </script>
+    <script src="../recursos/js/librerias/bootstrap.min.js" type="text/javascript"></script>
+
+
+    <script src="../recursos/js/librerias/wcom-utils-functions.js" type="text/javascript">
+    </script>
+    <link href="../recursos/css/librerias/wcom-generic-ib.css" type="text/css" rel="stylesheet" />
+    <!--FinSitemesh-->
+
+    <link href="../recursos/css/ejericio2.css" type="text/css" rel="stylesheet" />
+    <script src="../recursos/js/ejercicio3.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!--Ejercicio 2-->
+    <div id="contenedor-cabecera" class="p-5">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h2 class="mb-2">Aislamiento...</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim doloremque, ipsum necessitatibus ducimus corrupti eveniet?
+            </p>
+        </div>
+    </div>
+    <!--FIN Ejercicio 2-->
+
+    <!--Ejercicio 1-->
+    <div class="row col-12 text-center mt-5">
+        <h3 class="col-12 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim doloremque, ipsum necessitatibus ducimus corrupti eveniet?</h3>
+        <p class="col-12 pb-3">Lorem ipsum dolor sit amet consectetu</p>
+        <div class="d-flex justify-content-center col-12">
+            <div class="text-center m-2">
+                <img src="../recursos/iconos/ico-coche.svg" alt="">
+                <h4 class="mt-2">Lorem</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicings</p>
+            </div>
+            <div class="text-center m-2">
+                <img src="../recursos/iconos/ico-coche.svg" alt="">
+                <h4 class="mt-2">Lorem</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicings</p>
+            </div>
+            <div class="text-center m-2">
+                <img src="../recursos/iconos/ico-coche.svg" alt="">
+                <h4 class="mt-2">Lorem</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicings</p>
+            </div>
+            <div class="text-center m-2">
+                <img src="../recursos/iconos/ico-coche.svg" alt="">
+                <h4 class="mt-2">Lorem</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicings</p>
+            </div>
+        </div>
+    </div>
+    <!--FIN Ejercicio 1-->
+
+    <!--Ejercicio 3-->
+
+    <div id="formulario-login" class="row border border-success w-75 w-sm-50 w-md-25 m-5 mx-auto">
+        <div class="form-group col-12 mt-2 p-2">
+            <label for="usuario">Usuario*</label>
+            <input id="usuario" type="text" class="form-control inputs-form" name="usuario" maxlength="20">
+            <span class="help-block"></span>
+        </div>
+        <div class="text-center col-12 d-flex justify-content-center">
+            <a id="btn-login" class="btn btn-generic btn-generic-green btn-sin-flecha">
+                <span>Enviar Consulta</span>
+            </a>
+        </div>
+    </div>
+
+    <form id="formulario-consulta" action="" class="wcom-form-b4 row w-100 w-md-75 mx-auto d-none">
+        <div class="form-group col-12 col-sm-6 mt-2 p-2">
+            <label for="nombre">Nombre*</label>
+            <input id="nombre" type="text" class="form-control inputs-form" name="nombre" maxlength="20">
+            <span class="help-block"></span>
+        </div>
+        <div class="form-group col-12 col-sm-6 mt-2 p-2">
+            <label for="apellido">Apellido*</label>
+            <input id="apellido" type="text" class="form-control inputs-form" name="apellido" maxlength="30">
+            <span class="help-block"></span>
+        </div>
+        <div class="form-group col-12 col-sm-6 mt-2 p-2">
+            <label for="telefono">Tel&eacute;fono*</label>
+            <input id="telefono" type="number" class="form-control inputs-form" name="telefono">
+            <span class="help-block"></span>
+        </div>
+        <div class="form-group col-12 col-sm-6 mt-2 p-2 select">
+            <label class="label-form" for="ejemplo-select">Motivo de la consulta</label>
+            <select id="ejemplo-select" class="form-control inputs-form" name="ejemplo-select">
+                <option value="opcion1">Aver&iacute;a</option>
+                <option value="opcion2">Instalaci&oacute;n</option>
+            </select>
+            <span class="help-block"></span>
+        </div>
+        <div class="form-group col-12 mt-2 p-2">
+            <label for="consulta">Consulta*</label>
+            <textarea id="consulta" class="form-control inputs-form" name="consulta"></textarea>
+            <span class="help-block"></span>
+        </div>
+        <div class="form-group col-12 checkbox checkbox-inline tipo1 mt-3">
+            <input id="politicaPrivacidad" name="politicaPrivacidad" type="checkbox" value="0">
+            <label for="politicaPrivacidad">Acepto la pol&iacute;tica de privacidad</label>
+        </div>
+
+        <div class="text-center col-12 d-flex justify-content-center">
+            <a id="btn-enviarFormulario" class="btn btn-generic btn-generic-green btn-sin-flecha">
+                <span>Enviar Consulta</span>
+            </a>
+        </div>
+    </form>
+
+    <div class="modal fade modal-respuesta-responsive" id="modal-error" tabindex="-1" role="dialog" aria-labelledby="modal-respuesta-Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">x</span>
+                    </button>
+                    <h3 class="titulo-modal">Se ha producido un Error</h3>
+                    <p class="info-modal">Vuelve a intentarlo m&aacute;s tarde</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIN Ejercicio 3-->
+</body>
+
+</html>
