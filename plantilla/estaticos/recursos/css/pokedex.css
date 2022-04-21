@@ -1,0 +1,71 @@
+body {
+    background-image: url("../img/ico-pokemon.png");
+}
+
+.pokedex {
+    height: 400px;
+    width: 600px;
+    background-color: transparent;
+}
+
+.pokedex .pantalla {
+    border-right: solid 1px red;
+}
+
+.pokedex .identificador {
+    margin-top: 30px;
+    height: 370px;
+}
+
+.pokedex>div {
+    background: #E3072E;
+    border: solid 2px black;
+    width: 50%;
+    position: relative;
+}
+
+.pantalla .imagen {
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
+}
+
+form {
+    position: relative;
+}
+
+form .btn-enviar {
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pantalla .nombre {
+    position: absolute;
+    bottom: 0;
+}
+
+.pantalla .contenedor-barra {
+    float: right;
+    position: absolute;
+    right: -17px;
+    top: 62px;
+    z-index: 9;
+}
+
+.pantalla .contenedor-barra .img-barra {
+    height: 300px;
+}
+
+.identificador .informacion {
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.bloque-numeros .numeros {
+    background-color: aqua;
+    height: 30px;
+    width: 60px;
+}
